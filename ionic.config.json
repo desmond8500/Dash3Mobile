@@ -1,0 +1,7 @@
+{
+  "name": "Dash3Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
