@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'info.yonkou.dash3',
-  appName: 'Dash3Mobile',
+  appId: 'io.ionic.starter',
+  appName: 'Dash3Mobile1',
   webDir: 'www'
 };
 
