@@ -1,0 +1,18 @@
+<div>
+
+  <ion-grid fixed>
+    <ion-row>
+      @for(menu of menus; track menu.id){
+        <ion-col size="4">
+          <div class="card" [routerLink]="menu.url">
+            <div class="card-icon">
+              <ion-icon [name]="menu.icon" size="large"></ion-icon>
+            </div>
+            <div class="card-title">{{ menu.title }}</div>
+          </div>
+        </ion-col>
+      }
+    </ion-row>
+  </ion-grid>
+
+</div>

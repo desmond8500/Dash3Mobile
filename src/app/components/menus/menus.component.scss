@@ -1,0 +1,26 @@
+.card{
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  background-color: lavender;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover{
+  background-color: lightblue;
+}
+
+.card-title{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
