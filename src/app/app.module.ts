@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
+import { IonicStorageModule } from '@ionic/storage-angular';
 
 @NgModule({
   declarations: [],
@@ -11,6 +12,7 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     RouterModule,
     IonicModule.forRoot({ mode: 'ios' }),
+    IonicStorageModule.forRoot(),
   ],
 })
 export class AppModule {}
