@@ -1,7 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonText } from '@ionic/angular/standalone';
-import { ButtonModule } from 'primeng/button';
 import { LoginPageComponent } from '../login-page/login-page.component';
 import { RegisterPageComponent } from '../register-page/register-page.component';
 
@@ -12,7 +11,6 @@ import { RegisterPageComponent } from '../register-page/register-page.component'
   imports: [
     RouterModule,
     IonText,
-    ButtonModule,
     LoginPageComponent,
     RegisterPageComponent,
   ],

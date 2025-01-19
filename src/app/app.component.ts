@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
-import { PrimeNG } from 'primeng/config';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +7,8 @@ import { PrimeNG } from 'primeng/config';
   imports: [IonApp, IonRouterOutlet],
 })
 export class AppComponent {
-  constructor(private primeng: PrimeNG) {}
+  constructor() {}
 
   ngOnInit() {
-    this.primeng.ripple.set(true);
   }
 }
