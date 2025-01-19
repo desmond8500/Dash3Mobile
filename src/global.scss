@@ -38,11 +38,15 @@
 @import 'theme/flexbox.scss';
 @import 'theme/colors.scss';
 @import 'theme/text.scss';
+@import "theme/buttons.scss";
 
-@import 'styles/buttons.scss';
 
 :root {
   // --ionic-mode: ios;
   --ion-font-family: 'Roboto', sans-serif;
+}
+
+ion-app{
+  background: #f4f6f8;
 }
 

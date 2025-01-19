@@ -4,6 +4,7 @@ import { MenusComponent } from 'src/app/components/menus/menus.component';
 import { IonContent } from '@ionic/angular/standalone';
 import { ButtonModule } from 'primeng/button';
 import { FloatLabelModule } from 'primeng/floatlabel';
+import { SelectModule } from 'primeng/select';
 
 @Component({
   selector: 'app-index-page',
@@ -15,6 +16,7 @@ import { FloatLabelModule } from 'primeng/floatlabel';
     MenusComponent,
     ButtonModule,
     FloatLabelModule,
+    SelectModule
   ],
 })
 export class IndexPageComponent implements OnInit {
