@@ -7,7 +7,6 @@ import {
   IonRow,
   IonImg,
 } from '@ionic/angular/standalone';
-import { RessourcesService } from 'src/app/services/ressources.service';
 
 @Component({
   selector: 'app-ressources-page',

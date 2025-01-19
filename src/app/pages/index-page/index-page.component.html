@@ -1,8 +1,19 @@
 <app-header></app-header>
 
 <ion-content class="ion-padding" mode="ios">
-  <h2>Index</h2>
+  <h2>
+    <a routerlink="/" href="">Index</a>
+  </h2>
 
   <app-menus></app-menus>
+
+  <div class="card flex justify-center">
+    <p-button label="Check" pButton pRipple severity="success" /> test
+  </div>
+
+  <p-floatlabel>
+    <input id="username" pInputText  />
+    <label for="username">Username</label>
+  </p-floatlabel>
 
 </ion-content>

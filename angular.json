@@ -112,6 +112,7 @@
               }
             ],
             "styles": [
+              "src/styles.css",
               "src/global.scss",
               "src/theme/variables.scss",
               "node_modules/primeng/resources/themes/saga-blue/theme.css",
