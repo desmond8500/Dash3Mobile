@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
-
 @NgModule({
   declarations: [],
   imports: [

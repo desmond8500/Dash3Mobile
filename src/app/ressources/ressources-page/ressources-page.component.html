@@ -1,0 +1,40 @@
+<app-header></app-header>
+
+<ion-content class="ion-padding" mode="ios">
+  <h2>Ressources</h2>
+
+  @for(ressource of ressources.value(); track ressource.id){
+    <div class="card">
+      <ion-grid fixed>
+        <ion-row>
+          <ion-col size="auto">
+            <ion-img [src]="ressource?.logo ?? defaultLogo"></ion-img>
+            <!-- <ion-img src="../assets/img/photo.png"></ion-img> -->
+          </ion-col>
+          <ion-col >
+            <a [href]="ressource.lien" target="_blank">
+              {{ ressource?.name }}
+            </a>
+          </ion-col>
+          <ion-col size="auto">
+            <button>Editer</button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+
+
+      <div class="card-image">
+
+      </div>
+      <div class="card-body">
+
+      </div>
+      <div class="card-actions">
+
+      </div>
+
+    </div>
+  }
+
+</ion-content>

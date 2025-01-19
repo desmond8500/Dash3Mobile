@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { IonGrid, IonRow, IonCol, IonIcon, IonLabel } from '@ionic/angular/standalone';
+import { IonGrid, IonRow, IonCol, IonIcon } from '@ionic/angular/standalone';
 import { RouterModule } from '@angular/router';
 import { addIcons } from 'ionicons';
-import { triangle, ellipse, square } from 'ionicons/icons';
-import { homeOutline, peopleOutline, cubeOutline, hammerOutline } from 'ionicons/icons';
+import { homeOutline, peopleOutline, cubeOutline, hammerOutline, nuclearOutline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-menus',
@@ -13,7 +12,7 @@ import { homeOutline, peopleOutline, cubeOutline, hammerOutline } from 'ionicons
 })
 export class MenusComponent implements OnInit {
   constructor() {
-    addIcons({ homeOutline, peopleOutline, cubeOutline, hammerOutline });
+    addIcons({ homeOutline, peopleOutline, cubeOutline, hammerOutline, nuclearOutline });
   }
   menus = [
     {
@@ -39,6 +38,12 @@ export class MenusComponent implements OnInit {
       title: 'Outils',
       url: '/tools/galaxy',
       icon: 'hammer-outline',
+    },
+    {
+      id: 5,
+      title: 'Ressources',
+      url: '/ressources/list',
+      icon: 'nuclear-outline',
     },
   ];
 

@@ -1,9 +1,9 @@
-<ion-content class="ion-padding" >
-  <ion-text color="green">
-    <h2 class="fw-bold">Inscription</h2>
-  </ion-text>
 
-  <ion-item>
+  <ion-item >
+    <ion-input label="Nom" fill="outline" labelPlacement="floating" placeholder="Prénom et Nom"></ion-input>
+  </ion-item>
+
+  <ion-item class="ion-margin-top">
     <ion-input label="Email" fill="outline" labelPlacement="floating" placeholder="Email"></ion-input>
   </ion-item>
 
@@ -11,11 +11,12 @@
     <ion-input label="Mot de passe" fill="outline" labelPlacement="floating" placeholder="Mot de passe"></ion-input>
   </ion-item>
 
+  <ion-item class="ion-margin-top">
+    <ion-input label="Confirmation Mot de passe" fill="outline" labelPlacement="floating" placeholder="Confirmation Mot de passe"></ion-input>
+  </ion-item>
+
   <div class="d-flex-between-center">
     <ion-button color="green" class="ion-margin-top" routerLink="/register">Inscription</ion-button>
 
-    <ion-text color="green" class="ion-margin-top cursor-pointer" routerLink="/login">Connexion</ion-text>
   </div>
 
-
-</ion-content>

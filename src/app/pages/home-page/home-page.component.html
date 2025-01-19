@@ -1,4 +1,7 @@
 <div>
+  <div class="logo">
+
+  </div>
   <ion-text color="green">
     <h2 style="text-align: center;">Dash3 Mobile</h2>
   </ion-text>
@@ -6,6 +9,31 @@
   <div class="ion-padding d-flex-evenly">
     <ion-button routerLink="login">Login</ion-button>
     <ion-button routerLink="register">Register</ion-button>
+    <ion-button routerLink="index">Home</ion-button>
   </div>
+
+  <div class="slider">
+    @if(select){
+      <button class="btn btn-active" (click)="toggleSelect(0)">Connexion</button>
+      <button class="btn" (click)="toggleSelect(1)">Inscription</button>
+    }
+    @else {
+      <button class="btn" (click)="toggleSelect(0)">Connexion</button>
+      <button class="btn btn-active" (click)="toggleSelect(1)">Inscription</button>
+    }
+
+  </div>
+
+  <div class="card">
+    @if(select){
+      <app-register-page></app-register-page>
+    }
+    @else {
+      <app-login-page></app-login-page>
+    }
+
+  </div>
+
+
 
 </div>

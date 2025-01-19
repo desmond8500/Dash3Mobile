@@ -11,6 +11,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { ForgottenPageComponent } from './pages/forgotten-page/forgotten-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { RessourcesPageComponent } from './ressources/ressources-page/ressources-page.component';
 
 export const routes: Routes = [
   { path: '', component: HomePageComponent},
@@ -31,4 +32,5 @@ export const routes: Routes = [
   { path: 'stock/providers', component: ProvidersPageComponent },
   // Tools
   { path: 'tools/galaxy', component: GalaxyPageComponent },
+  { path: 'ressources/list', component: RessourcesPageComponent },
 ];
