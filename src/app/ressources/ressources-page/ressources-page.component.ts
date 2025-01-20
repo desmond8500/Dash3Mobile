@@ -19,7 +19,7 @@ export class RessourcesPageComponent implements OnInit {
   defaultLogo = '../assets/img/photo.png'
   ressources = resource({
     loader: () =>
-      fetch(this._env.server+'api/v1/ressources').then((response) =>
+      fetch(this._env.server+'/v1/ressources').then((response) =>
         response.json()
       ),
     // loader: () => fetch('https://res.bcs-sn.com/api/v1/user/').then(response => response.json()) ,
