@@ -1,7 +1,8 @@
 .card{
   aspect-ratio: 1 / 1;
   width: 100%;
-  background-color: lavender;
+  background-color: #a45c55;
+  color: white;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -13,7 +14,9 @@
 }
 
 .card:hover{
-  background-color: lightblue;
+  border: 1px solid #a45c55;
+  color: #a45c55;
+  background: white;
 }
 
 .card-title{

@@ -12,10 +12,10 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
 import { ForgottenPageComponent } from './pages/forgotten-page/forgotten-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { RessourcesPageComponent } from './ressources/ressources-page/ressources-page.component';
+import { TestComponent } from './pages/test/test.component';
 
 export const routes: Routes = [
   { path: '', component: HomePageComponent},
-  { path: 'e', loadChildren: () => import('./tabs/tabs.routes').then((m) => m.routes), },
   // Login
   { path: 'login', component: LoginPageComponent},
   { path: 'register', component: RegisterPageComponent},
@@ -33,4 +33,6 @@ export const routes: Routes = [
   // Tools
   { path: 'tools/galaxy', component: GalaxyPageComponent },
   { path: 'ressources/list', component: RessourcesPageComponent },
+  //
+  { path: 'test', component: TestComponent },
 ];

@@ -9,5 +9,10 @@ export class EnvService {
   img_bouclier = '../../assets/img/bouclier.png';
   img_photo = '../../assets/img/photo.png';
 
+  dev_server = 'http://localhost:8000/api';
+  prod_server = 'https://res.bcs-sn.com/api';
+
+  server = this.prod_server;
+
   constructor() {}
 }

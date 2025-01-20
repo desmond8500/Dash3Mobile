@@ -1,18 +1,19 @@
 <ion-header mode="ios">
   <ion-toolbar >
     <ion-buttons slot="start">
-      <ion-button routerLink="/index"> Home </ion-button>
+      <ion-button routerLink="/index" color="brown">
+        <!-- <b>Retour</b> -->
+        <ion-back-button default-href="#" color="light" text="Retour"></ion-back-button>
+      </ion-button>
     </ion-buttons>
 
-    <ion-title>Dash 3</ion-title>
+    <ion-title style="font-size:22px">{{ title() }}</ion-title>
 
     <ion-buttons slot="end">
-      <ion-button> End </ion-button>
+
+
     </ion-buttons>
 
   </ion-toolbar>
 
-  <!-- <ion-toolbar>
-    <ion-searchbar></ion-searchbar>
-  </ion-toolbar> -->
 </ion-header>

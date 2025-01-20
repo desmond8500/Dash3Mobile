@@ -15,18 +15,13 @@ export class MenusComponent implements OnInit {
     addIcons({ homeOutline, peopleOutline, cubeOutline, hammerOutline, nuclearOutline });
   }
   menus = [
-    {
-      id: 1,
-      title: 'Accueil',
-      url: '/index',
-      icon: 'home-outline',
-    },
-    {
-      id: 2,
-      title: 'Clients',
-      url: '/erp/clients',
-      icon: 'people-outline',
-    },
+
+    // {
+    //   id: 2,
+    //   title: 'Clients',
+    //   url: '/erp/clients',
+    //   icon: 'people-outline',
+    // },
     {
       id: 3,
       title: 'Articles',
@@ -37,6 +32,12 @@ export class MenusComponent implements OnInit {
       id: 4,
       title: 'Outils',
       url: '/tools/galaxy',
+      icon: 'hammer-outline',
+    },
+    {
+      id: 6,
+      title: 'Test',
+      url: '/test',
       icon: 'hammer-outline',
     },
     {
